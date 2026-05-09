@@ -1,0 +1,29 @@
+{
+  "name": "hrhrprasath.github.io",
+  "version": "1.0.0",
+  "description": "A minimal personal website built with Eleventy and EJS.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "blog": "node scripts/new.js post",
+    "project": "node scripts/new.js project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrhrprasath/hrhrprasath.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hrhrprasath/hrhrprasath.github.io/issues"
+  },
+  "homepage": "https://github.com/hrhrprasath/hrhrprasath.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.5",
+    "@11ty/eleventy-plugin-ejs": "^1.0.0",
+    "ejs": "^5.0.2"
+  }
+}

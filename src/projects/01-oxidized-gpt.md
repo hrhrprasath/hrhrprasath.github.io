@@ -1,7 +1,7 @@
 ---
 layout: post.ejs
 title: Oxidized-GPT
-date: 2024-03-15
+date: 2026-02-13
 tags: project
 ---
 # [Oxidized-GPT: Zero-Dependency Rust Implementation](https://github.com/hrhrprasath/Oxidized-GPT)

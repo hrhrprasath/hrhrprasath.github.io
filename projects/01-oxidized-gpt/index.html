@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oxidized-GPT – Hari Hara Prasad V</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <h1><a href="/">Hari Hara Prasad V</a></h1>
+    <nav>
+      <a href="/" class="">About</a>
+     <!-- <a href="/writing/" class="">Writing</a> -->
+      <a href="/projects/" class="active">Projects</a>
+    </nav>
+  </header>
+  <main>
+    <article>
+  <p class="post-date">Feb 13, 2026</p>
+  <h1><a href="https://github.com/hrhrprasath/Oxidized-GPT">Oxidized-GPT: Zero-Dependency Rust Implementation</a></h1>
+<p>A compact, educational GPT implementation written in Rust using only the standard library. This project is a Rust port of <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95">microGPT</a> by Andrej Karpathy, demonstrating a full stack: custom RNG, a minimal autodiff engine, a transformer forward+backward pass, Adam optimizer, training loop, and CPU inference — all without external crates.</p>
+<h2>Credits</h2>
+<p>This implementation is based on Andrej Karpathy's <a href="https://karpathy.github.io/2026/02/12/microgpt/">microGPT blog post</a>, which presents a minimal, educational GPT implementation in Python. Oxidized-GPT faithfully translates the core concepts to Rust while maintaining zero external dependencies (standard library only).</p>
+<p>This workspace uses the canonical Rust layout (<code>Cargo.toml</code> + <code>src/main.rs</code>).</p>
+<h2>Key points</h2>
+<ul>
+<li>Zero external dependencies (std only)</li>
+<li>Autodiff graph with basic ops (Add, Mul, Pow, Exp, Log, ReLU)</li>
+<li>Higher-level operations built from primitives (matmul, softmax, cross-entropy)</li>
+<li>Transformer with RMSNorm, multi-head attention, and residuals</li>
+<li>Parameter tracking to extract gradients and ADAM optimizer</li>
+<li>CPU-only inference with autoregressive generation</li>
+</ul>
+
+</article>
+
+  </main>
+  <footer>
+    <p>© 2026 Hari Hara Prasad V.</p>
+    <p>
+      <a href="https://twitter.com/hariharaprasadv">twitter</a>
+      <a href="https://github.com/hrhrprasath">github</a>
+      <a href="https://www.linkedin.com/in/hari-hara-prasad-v">linkedin</a>
+    </p>
+  </footer>
+</body>
+</html>
